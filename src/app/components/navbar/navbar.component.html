@@ -1,0 +1,16 @@
+<mat-toolbar class="navbar">
+  <span class="navbar-spacer"></span>
+  <div class="navbar-menu" *ngFor="let category of categories">
+    <app-menu [category]="category"></app-menu>
+  </div>
+  <form class="search-form">
+    <mat-form-field class="search-form-full-width">
+      <input type="text" placeholder="Search*" matInput [formControl]="myControl" [matAutocomplete]="auto">
+      <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let option of options" [value]="option">
+          {{option}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>    
+</mat-toolbar>

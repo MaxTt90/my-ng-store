@@ -1,0 +1,46 @@
+.site-topbar {
+    position: relative;
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+
+.sep {
+    margin: 0.25em
+}
+
+.topbar-nav {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.site-topbar .topbar-cart {
+    width: 120px;
+    margin-left: 15px;
+}
+
+.site-topbar .topbar-cart, .site-topbar .topbar-info {
+    position: relative;
+    float: right;
+    _display: inline;
+    height: 40px;
+}
+
+.site-topbar .topbar-info {
+    line-height: 40px;
+}
+
+.site-topbar .cart-mini {
+    position: relative;
+    z-index: 32;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+    background: #424242;
+}
