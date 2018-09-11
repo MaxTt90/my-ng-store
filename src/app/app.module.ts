@@ -1,21 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './shared/material/material.module';
 import { Routes, RouterModule } from '@angular/router';
+
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import { HomeModule } from '../app/home/home.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from './shared/material/material.module';
 import { MenuComponent } from './components/navbar/menu/menu.component';
 
-// const routes: Routes = [
-//   { path: 'demo', loadChildren: './demo/demo.module#DemoModule' },
-//   { path: '**', redirectTo: 'demo' }
-// ];
+const routes: Routes = [
+  { path: 'home', loadChildren: '../home/home.module#HomeModule' },
+  { path: '**', redirectTo: 'home' }
+];
 
 @NgModule({
   declarations: [
@@ -23,14 +26,16 @@ import { MenuComponent } from './components/navbar/menu/menu.component';
     HeaderComponent,
     FooterComponent,
     NavbarComponent,
-    MenuComponent
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    NgbModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

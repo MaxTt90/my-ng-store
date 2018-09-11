@@ -26,7 +26,6 @@
 .site-topbar .topbar-cart, .site-topbar .topbar-info {
     position: relative;
     float: right;
-    _display: inline;
     height: 40px;
 }
 
