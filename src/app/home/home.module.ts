@@ -11,7 +11,8 @@ import { CategoryComponent } from './category/category.component';
     NgbCarouselModule
   ],
   exports: [
-    HeroComponent
+    HeroComponent,
+    CategoryComponent
   ],
   declarations: [HeroComponent, CategoryComponent]
 })

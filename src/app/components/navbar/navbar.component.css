@@ -1,20 +1,76 @@
+/* header 内容 */
 .navbar {
-    height: 70px;
-    background: white;
+    height: 80px;
 }
 
-.navbar-spacer {
-    flex: 1 1 auto
+.header {
+	position: relative;
+	height: 80px;
+	z-index: 20;
 }
+	.header-nav {
+		float: left;
+    }
+    
+    .navlist {
+        width: 850px;
+        margin-top: 15px;
+    }
+        .navlist .all {
+            position: relative;
+            float: left;
+            width: 160px;
+            height: 80px;
+        }
+        .navlist .item {
+            float: left;
+        }
+        .item a {
+            font-size: 16px;
+            color: #333;
+            display: block;
+            padding: 26px 10px 35px;
+        }
+        .item a:hover {
+            color: #ff6700;
+            text-decoration : none;
+        }
 
-.search-form {
-    min-width: 150px;
-    max-width: 500px;
-    width: 80%;
-    margin-left: 200px;
-    font-size: 14px;
-  }
-  
-.search-form-full-width {
-    width: 50%;
-}
+      /* 网站搜索 */
+      .header-search {
+        float: right;
+    }
+        .search-form {
+            position: relative;
+            width: 250px;
+            height: 50px;
+        }
+            .search-text {
+                position: absolute;
+                top: 0;
+                right: 50px;
+                padding: 0 10px;
+                width: 230px;
+                height: 48px;
+                line-height: 48px;
+                font-size: 14px;
+                border: 1px solid #e0e0e0;
+            }
+            .search-btn {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 50px;
+                height: 50px;
+                color: #616161;
+                background-color: transparent;
+                border: 1px solid #e0e0e0;
+                border-left: none;
+                cursor: pointer;
+                transition: all .2s;
+            }
+            .search-btn:hover {
+                color: #fff;
+                background-color: rgb(255, 38, 0);
+                border-color: rgb(255, 38, 0);
+            }
