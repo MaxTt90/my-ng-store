@@ -1,7 +1,7 @@
     /* 侧边导航 */
     .side-nav {
         position: relative;
-        width: 233px;
+        width: 20%;
         float: left;
         z-index: 1;
     }
@@ -35,13 +35,14 @@
             .children-nav {
                 display: none;
                 position: absolute;
-                left: 230px;
+                left: 250px;
                 top: 0;
                 width: 780px;
                 height: 428px;
                 border: 1px solid #e0e0e0;
                 background: #fff;
                 box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+                margin-left: 2px;
             }
             .children-list {
                 float: left;
@@ -58,7 +59,8 @@
                 padding: 15px 0 15px 20px;
             }
             .children-list .title {
-                margin-left: 15px;	
+                margin-left: 15px;
+                color: black;	
             }
             .children-list .buybtn {
                 display: block;
@@ -79,11 +81,18 @@
             }
             .children-list .title:hover {
                 color: #ff6700;
+                text-decoration: none;
             }
-            .buybtn:hover {
+            .children-list .link:hover {
+                color: #ff6700;
+                text-decoration: none;
+            }
+
+            .children-list .buybtn:hover {
                 color: #fff;
                 background: #ff6700;
                 transition: all .2s;
+                text-decoration: none;
             }
             .children-list img {
                 vertical-align: middle;
