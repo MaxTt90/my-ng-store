@@ -1,8 +1,6 @@
 .hero-slider {
-    display: flex;
-    width: 80%;
-    float: right;
-    align-content: stretch;
-    justify-content: right;
-    margin-left:0px; 
+    display: block;
+    width: 1226px;
+    position: relative;
+    left: 250px;
 }

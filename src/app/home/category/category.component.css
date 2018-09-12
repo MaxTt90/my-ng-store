@@ -1,9 +1,8 @@
     /* 侧边导航 */
     .side-nav {
-        position: relative;
-        width: 20%;
-        float: left;
-        z-index: 1;
+        position: absolute;
+        width: 250px;
+        z-index: 3;
     }
     .sidenav-list {
         position: relative;
@@ -35,7 +34,7 @@
             .children-nav {
                 display: none;
                 position: absolute;
-                left: 250px;
+                left: 300px;
                 top: 0;
                 width: 780px;
                 height: 428px;
