@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { HeroComponent } from './hero/hero.component';
 import { CategoryComponent } from './category/category.component';
 import { HotFeatureComponent } from './hot-feature/hot-feature.component';
+import { ProductCardComponent } from '../components/product-card/product-card.component';
+import { StartProductsComponent } from './start-products/start-products.component';
 
 @NgModule({
   imports: [
@@ -14,8 +16,9 @@ import { HotFeatureComponent } from './hot-feature/hot-feature.component';
   exports: [
     HeroComponent,
     CategoryComponent,
-    HotFeatureComponent
+    HotFeatureComponent,
+    StartProductsComponent
   ],
-  declarations: [HeroComponent, CategoryComponent, HotFeatureComponent]
+  declarations: [HeroComponent, CategoryComponent, HotFeatureComponent, StartProductsComponent]
 })
 export class HomeModule { }
