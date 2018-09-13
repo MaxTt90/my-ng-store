@@ -2,6 +2,9 @@
 .navbar {
     height: 80px;
     align-content: center;
+    width:1467px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .header {
