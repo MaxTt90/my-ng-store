@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { MenuComponent } from './components/navbar/menu/menu.component';
+import { ProductCardComponent } from './components/product-card/product-card.component';
 
 const routes: Routes = [
   { path: 'home', loadChildren: '../home/home.module#HomeModule' },
@@ -26,7 +26,7 @@ const routes: Routes = [
     HeaderComponent,
     FooterComponent,
     NavbarComponent,
-    MenuComponent,
+    ProductCardComponent,
   ],
   imports: [
     BrowserModule,
