@@ -78,3 +78,47 @@
       margin: 0 auto;
   }
 
+  /* 产品信息统一信息 */
+.page-title {
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 60px;
+}
+.goods-item-m .goods-title {
+	padding-bottom: 5px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	padding: 0 15px;
+}
+.goods-item-s .goods-title {
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	padding-right: 100px;
+}
+.title {
+	color: #000;
+}
+.goods-info {
+	color: #666;
+	margin-bottom: 10px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	padding: 0 15px;
+}
+.goods-price {
+	color: #ff6700;
+}
+.page-main .item-active {
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+.goods-item {
+	float: left;
+	background: #fff;
+	width: 233px;
+	transition: all .2s;
+}
+

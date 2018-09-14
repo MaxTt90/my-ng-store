@@ -1,0 +1,142 @@
+
+.home-ce {
+    width: 1476px;
+    margin: 0 auto;
+}
+/* 右侧更多内容 */
+	.more {
+		float: right;
+	}
+    .page-title {
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 60px;
+    }
+	 .more-text {
+			color: #424242;
+			font-size: 16px;
+			line-height: 60px;
+			margin-left: 15px;
+			padding-bottom: 5px;
+			border-bottom: 2px solid #f5f5f5;
+			transition: all .2s;
+		}
+		.active {
+			color: #ff6700;
+			border-bottom: 2px solid #ff6700;
+        }
+    /* 内容左侧 */
+    .lg-thumb-list {
+        float: left;
+        width: 233px;
+    }
+		.left-s-thumb {
+			height: 615px;
+			margin-bottom: 15px;
+		}
+			.left-s-thumb .s-thumb-link {
+				display: block;
+				height: 615px;
+			}
+			.left-s-thumb .s-thumb {
+				width: 233px;
+				height: 615px;
+			}
+		.left-m-thumb {
+			height: 300px;
+			margin-bottom: 15px;
+		}
+			.left-m-thumb .m-thumb-link {
+				display: block;
+				height: 300px;
+			}
+			.left-m-thumb .m-thumb {
+				width: 233px;
+				height: 300px;
+			}
+	/* 内容右侧 */
+	.goods-list {
+		float: left;
+		width: 1243px;
+	}
+	.list {
+		display: none;
+	}
+		.goods-item-m {
+			position: relative;
+			height: 300px;
+			margin-left: 15px;
+			margin-bottom: 15px;
+			padding: 40px 0 20px;
+			text-align: center;
+		}
+		.goods-item-m .goods-thumb {
+			width: 180px;
+			height: 150px;
+			padding: 0 40px 5px;
+		}
+		.goods-item-m img {
+			width: 180px;
+            height: 150px;
+		}
+		.goods-item-s {
+			position: relative;
+			padding-top: 50px;
+			height: 142px;
+			margin-left: 15px;
+			margin-bottom: 15px;
+		}
+			.goods-item-s .goods-title {
+				margin-left: 40px;
+			}
+			.goods-item-s .goods-price {
+				margin-left: 35px;
+				color: #ff6700;
+			}
+			.goods-item-s .goods-thumb {
+				position: absolute;
+				right: 20px;
+				top: 30px;
+				width: 80px;
+				height: 80px;
+			}
+			.goods-item-s img {
+				width: 80px;
+				height: 80px;
+			}
+			.goods-item-s .goods-more {
+				display: block;
+				margin-top: -15px;
+				margin-left: 30px;
+				font-size: 20px;
+			}
+			.goods-item-s .goods-more span {
+				display: block;
+				font-size: 15px;
+			}
+			.goods-thumb .iconfont {
+				display: block;
+				margin-top: -10px;
+				font-size: 50px;
+				line-height: 92px;
+				text-align: center;
+				color: #ff6700;
+            }
+            .product-label {
+                position: absolute;
+                top: 0;
+                right: 0;
+                left: 0;
+                height: 20px;
+            }
+            .product-label .goods-label {
+                display: inline-block;
+                padding: 0 20px;
+                height: 20px;
+                border: 1px solid #ff6700;
+                color: #ff6700;
+            }
+            .goods-item-m .goods-label {
+                color: #fff;
+                background: #ff6700;
+            }

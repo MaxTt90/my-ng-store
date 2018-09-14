@@ -1,12 +1,119 @@
 .single-goods {
-	margin-top: 20px;
+    margin: 0 auto;
+    width: 1476px;
+}
+.page-title {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 60px;
 }
 	.s-lg-title {
 		position: relative;
 		height: 60px;
-    }
-    .page-title {
-        font-size: 20px;
-        font-weight: 200;
-        line-height: 60px;
-    }
+	}
+		.title-more {
+			position: absolute;
+			right: 0;
+			bottom: 10px;
+			vertical-align:bottom;
+		}
+			.title-more a {
+				display: inline-block;
+				width: 35px;
+				height: 23px;
+				line-height: 23px;
+				border: 1px solid #e0e0e0;
+				color: #b0b0b0;
+				text-align: center;
+				margin-left: -5px;
+			}
+			.btn-default {
+				cursor: default;
+				color: #ccc;
+			}
+	.sgoods-content {
+		margin-bottom: 40px;
+		width: 1476px;
+		overflow: hidden;
+	}
+		.sgoods-list {
+			width: 2952px;
+		}
+			.sgoods-item {
+				float: left;
+				text-align: center;
+				padding-top: 50px;
+				margin-right: 15px;
+				width: 233px;
+				height: 300px;
+				background: #fafafa;
+			}
+			.sgoods-item .goods-title {
+				padding-bottom: 5px;
+				overflow: hidden;
+				text-overflow:ellipsis;
+				white-space: nowrap;
+				padding: 0 15px;
+			}
+			.sgoods-item:nth-child(1), .sgoods-item:nth-child(6){
+				border-top: 1px solid #ffac13;
+			}
+			.sgoods-item:nth-child(2), .sgoods-item:nth-child(7){
+				border-top: 1px solid #83c44e;
+			}
+			.sgoods-item:nth-child(3), .sgoods-item:nth-child(8){
+				border-top: 1px solid #2196f3;
+			}
+			.sgoods-item:nth-child(4), .sgoods-item:nth-child(9){
+				border-top: 1px solid #e53935;
+			}
+			.sgoods-item:nth-child(5), .sgoods-item:nth-child(10){
+				border-top: 1px solid #00c0a5;
+			}
+			.sgoods-item:nth-child(6n) {
+				margin-right: 0;
+			}				
+				.sgoods-thumb img {
+					width: 160px;
+					height: 160px;
+                }
+                
+/* 产品信息统一信息 */
+
+.goods-item-m .goods-title {
+	padding-bottom: 5px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	padding: 0 15px;
+}
+.goods-item-s .goods-title {
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	padding-right: 100px;
+}
+.title {
+	color: #000;
+}
+.goods-info {
+	color: #666;
+	margin-bottom: 10px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	padding: 0 15px;
+}
+.goods-price {
+	color: #ff6700;
+}
+.page-main .item-active {
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+.goods-item {
+	float: left;
+	background: #fff;
+	width: 233px;
+	transition: all .2s;
+}
