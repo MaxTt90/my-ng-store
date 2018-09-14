@@ -9,6 +9,7 @@ import { HotFeatureComponent } from './hot-feature/hot-feature.component';
 import { ProductCardComponent } from '../components/product-card/product-card.component';
 import { StartProductsComponent } from './start-products/start-products.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { MainPageContentComponent } from './main-page/main-page-content/main-page-content.component';
 
 @NgModule({
   imports: [
@@ -30,7 +31,8 @@ import { MainPageComponent } from './main-page/main-page.component';
     HotFeatureComponent,
     StartProductsComponent,
     ProductCardComponent,
-    MainPageComponent
+    MainPageComponent,
+    MainPageContentComponent
   ]
 })
 export class HomeModule { }
